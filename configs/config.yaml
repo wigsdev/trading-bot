@@ -1,0 +1,13 @@
+# Archivo de configuración principal del bot
+
+app:
+  name: "Trading Bot Híbrido"
+  version: "0.1.0"
+
+data:
+  storage_path: "data/"
+  log_path: "logs/"
+
+broker:
+  provider: "alpaca"
+  paper_trading: true

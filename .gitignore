@@ -1,0 +1,14 @@
+# Entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Configs sensibles
+.env
+*.secret
+configs/.env
+
+# Logs y data temporales
+*.log
+/data/
+logs/

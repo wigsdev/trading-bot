@@ -1,0 +1,15 @@
+# Librerías para manejo de datos
+pandas>=2.1.0
+numpy>=1.27.0
+matplotlib>=3.8.0
+
+# Librerías para trading
+vectorbt>=0.26.0
+alpaca-trade-api>=3.2.0
+
+# Librerías para alertas
+python-telegram-bot>=20.4
+
+# Otras utilidades
+sqlalchemy>=2.0.20
+psycopg2-binary>=2.9.9
