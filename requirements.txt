@@ -1,0 +1,4 @@
+requests
+alpaca-trade-api
+python-dotenv
+pandas
