@@ -2,7 +2,7 @@
 
 **Proyecto**: Trading Bot Híbrido  
 **Última Actualización**: 2024-12-07  
-**Progreso General**: 8% (12/150 tareas)
+**Progreso General**: 9% (14/150 tareas)
 
 > 📍 **Ubicación**: Este archivo está en `docs/project/TASK_LIST.md` para fácil acceso y continuidad del desarrollo.
 
@@ -13,7 +13,7 @@
 | Fase | Tareas | Completadas | Progreso | Estado |
 |------|--------|-------------|----------|--------|
 | **Fase 0: Fundamentos** | 8 | 8 | 100% | ✅ Completada |
-| **Fase 1: Core Infrastructure** | 25 | 4 | 16% | 🚧 En Progreso |
+| **Fase 1: Core Infrastructure** | 25 | 6 | 24% | 🚧 En Progreso |
 | **Fase 2: Trading Engine** | 35 | 0 | 0% | ⏳ Pendiente |
 | **Fase 3: Event System** | 15 | 0 | 0% | ⏳ Pendiente |
 | **Fase 4: Testing** | 20 | 0 | 0% | ⏳ Pendiente |
@@ -21,7 +21,7 @@
 | **Fase 6: DevOps** | 18 | 0 | 0% | ⏳ Pendiente |
 | **Fase 7: Production** | 12 | 0 | 0% | ⏳ Pendiente |
 | **Fase 8: Launch** | 5 | 0 | 0% | ⏳ Pendiente |
-| **TOTAL** | **150** | **12** | **8%** | 🚧 En Progreso |
+| **TOTAL** | **150** | **14** | **9%** | 🚧 En Progreso |
 
 ---
 
@@ -52,18 +52,23 @@
   - Dependencias: Ninguna
   - Descripción: Implementar ConfigManager con Pydantic para validación
   - ✅ Completado: 2024-12-07
+  - 📝 **Nota**: Esta tarea incluyó TASK-002 y TASK-003 en su implementación
   
-- [ ] **TASK-002**: Definir modelos de configuración
+- [x] **TASK-002**: Definir modelos de configuración
   - Prioridad: CRÍTICA
   - Estimación: 3h
   - Dependencias: TASK-001
   - Descripción: Crear modelos Pydantic para todas las configuraciones
+  - ✅ Completado: 2024-12-07
+  - 📝 **Nota**: YA IMPLEMENTADO en TASK-001. Se crearon 8 modelos Pydantic: AppConfig, DataConfig, BrokerConfig, TradingConfig, RiskConfig, LoggingConfig, DatabaseConfig, TradingBotConfig
   
-- [ ] **TASK-003**: Implementar carga de configuración desde múltiples fuentes
+- [x] **TASK-003**: Implementar carga de configuración desde múltiples fuentes
   - Prioridad: ALTA
   - Estimación: 3h
   - Dependencias: TASK-002
   - Descripción: Soportar .env, YAML, y variables de entorno
+  - ✅ Completado: 2024-12-07
+  - 📝 **Nota**: YA IMPLEMENTADO en TASK-001. ConfigManager soporta carga desde .env, config.yaml y variables de entorno del sistema
 
 #### Logger Estructurado
 - [x] **TASK-004**: Crear `src/utils/logger.py`
@@ -88,7 +93,7 @@
   - Descripción: Validadores para símbolos, órdenes, etc.
   - ✅ Completado: 2024-12-07
 
-**Progreso**: 4/6 (67%)
+**Progreso**: 6/6 (100%) ✅
 
 ---
 
