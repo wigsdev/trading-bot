@@ -2,7 +2,7 @@
 
 **Proyecto**: Trading Bot Híbrido  
 **Última Actualización**: 2024-12-07  
-**Progreso General**: 7% (11/150 tareas)
+**Progreso General**: 8% (12/150 tareas)
 
 > 📍 **Ubicación**: Este archivo está en `docs/project/TASK_LIST.md` para fácil acceso y continuidad del desarrollo.
 
@@ -13,7 +13,7 @@
 | Fase | Tareas | Completadas | Progreso | Estado |
 |------|--------|-------------|----------|--------|
 | **Fase 0: Fundamentos** | 8 | 8 | 100% | ✅ Completada |
-| **Fase 1: Core Infrastructure** | 25 | 3 | 12% | 🚧 En Progreso |
+| **Fase 1: Core Infrastructure** | 25 | 4 | 16% | 🚧 En Progreso |
 | **Fase 2: Trading Engine** | 35 | 0 | 0% | ⏳ Pendiente |
 | **Fase 3: Event System** | 15 | 0 | 0% | ⏳ Pendiente |
 | **Fase 4: Testing** | 20 | 0 | 0% | ⏳ Pendiente |
@@ -21,7 +21,7 @@
 | **Fase 6: DevOps** | 18 | 0 | 0% | ⏳ Pendiente |
 | **Fase 7: Production** | 12 | 0 | 0% | ⏳ Pendiente |
 | **Fase 8: Launch** | 5 | 0 | 0% | ⏳ Pendiente |
-| **TOTAL** | **150** | **11** | **7%** | 🚧 En Progreso |
+| **TOTAL** | **150** | **12** | **8%** | 🚧 En Progreso |
 
 ---
 
@@ -81,13 +81,14 @@
   - ✅ Completado: 2024-12-07 (incluido en TASK-004)
 
 #### Validadores
-- [ ] **TASK-006**: Crear `src/utils/validators.py`
+- [x] **TASK-006**: Crear `src/utils/validators.py`
   - Prioridad: ALTA
   - Estimación: 2h
   - Dependencias: Ninguna
   - Descripción: Validadores para símbolos, órdenes, etc.
+  - ✅ Completado: 2024-12-07
 
-**Progreso**: 3/6 (50%)
+**Progreso**: 4/6 (67%)
 
 ---
 
