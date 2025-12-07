@@ -2,7 +2,7 @@
 
 **Proyecto**: Trading Bot Híbrido  
 **Última Actualización**: 2024-12-07  
-**Progreso General**: 5% (8/150 tareas)
+**Progreso General**: 6% (9/150 tareas)
 
 > 📍 **Ubicación**: Este archivo está en `docs/project/TASK_LIST.md` para fácil acceso y continuidad del desarrollo.
 
@@ -13,7 +13,7 @@
 | Fase | Tareas | Completadas | Progreso | Estado |
 |------|--------|-------------|----------|--------|
 | **Fase 0: Fundamentos** | 8 | 8 | 100% | ✅ Completada |
-| **Fase 1: Core Infrastructure** | 25 | 0 | 0% | 🎯 Siguiente |
+| **Fase 1: Core Infrastructure** | 25 | 1 | 4% | 🚧 En Progreso |
 | **Fase 2: Trading Engine** | 35 | 0 | 0% | ⏳ Pendiente |
 | **Fase 3: Event System** | 15 | 0 | 0% | ⏳ Pendiente |
 | **Fase 4: Testing** | 20 | 0 | 0% | ⏳ Pendiente |
@@ -21,7 +21,7 @@
 | **Fase 6: DevOps** | 18 | 0 | 0% | ⏳ Pendiente |
 | **Fase 7: Production** | 12 | 0 | 0% | ⏳ Pendiente |
 | **Fase 8: Launch** | 5 | 0 | 0% | ⏳ Pendiente |
-| **TOTAL** | **150** | **8** | **5%** | 🚧 En Progreso |
+| **TOTAL** | **150** | **9** | **6%** | 🚧 En Progreso |
 
 ---
 
@@ -41,16 +41,17 @@
 
 ---
 
-## 🚀 FASE 1: Core Infrastructure 🎯 SIGUIENTE
+## 🚀 FASE 1: Core Infrastructure 🚧 EN PROGRESO
 
 ### 1.1 Configuración y Utilidades (3 días)
 
 #### Sistema de Configuración
-- [ ] **TASK-001**: Crear `src/utils/config.py`
+- [x] **TASK-001**: Crear `src/utils/config.py`
   - Prioridad: CRÍTICA
   - Estimación: 4h
   - Dependencias: Ninguna
   - Descripción: Implementar ConfigManager con Pydantic para validación
+  - ✅ Completado: 2024-12-07
   
 - [ ] **TASK-002**: Definir modelos de configuración
   - Prioridad: CRÍTICA
