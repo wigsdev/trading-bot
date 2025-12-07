@@ -772,18 +772,26 @@ pytest --cov=src
 git add .
 git commit -m "feat(strategies): implementar estrategia RSI"
 
-# 6. Push y PR
+# 6. Push a repositorio remoto
 git push origin feat/TASK-032-rsi-strategy
-# Crear Pull Request
 
-# 7. Code Review
+# 7. Crear Pull Request en GitHub
+# Ir a GitHub y crear PR desde la rama
+
+# 8. Code Review
 # Esperar aprobación
 
-# 8. Merge
+# 9. Merge
 # Squash and merge
 
-# 9. Actualizar docs
+# 10. Actualizar docs
 # Marcar tarea como [x] en TASK_LIST.md
+# Commit y push de documentación
+
+# 11. Limpiar rama local
+git checkout main
+git pull origin main
+git branch -d feat/TASK-032-rsi-strategy
 ```
 
 ---
