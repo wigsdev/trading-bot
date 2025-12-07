@@ -1,15 +1,22 @@
-# Librerías para manejo de datos
+# === Data Handling ===
 pandas>=2.1.0
 numpy>=1.27.0
-matplotlib>=3.8.0
 
-# Librerías para trading
+# === Trading ===
 vectorbt>=0.26.0
 alpaca-trade-api>=3.2.0
 
-# Librerías para alertas
+# === Configuration ===
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+PyYAML>=6.0.0
+
+# === Alerts ===
 python-telegram-bot>=20.4
 
-# Otras utilidades
+# === Database ===
 sqlalchemy>=2.0.20
 psycopg2-binary>=2.9.9
+
+# === Utilities ===
+matplotlib>=3.8.0
